@@ -42,6 +42,12 @@ sponsorship or endorsement. This app contains no PlayStation firmware, BIOS, sys
 game data of any kind, and it does not run, execute, or emulate anything -- it only displays
 public build/CI status from GitHub. Provided "as is," without warranty of any kind.
 
+SharpEmu Tracker reads public data from the GitHub Actions API for the SharpEmu project (and any
+fork/branch you choose to follow) and displays build status, commit history, and available
+platform artifacts. That's it -- it's a status viewer. It does not include, bundle, or distribute
+the SharpEmu emulator itself, any of its build artifacts, or interact with SharpEmu's own source
+code or releases in any way.
+
 ## ✨ Features
 
 **📦 Build Tracking**
@@ -97,15 +103,3 @@ public build/CI status from GitHub. Provided "as is," without warranty of any ki
   update won't override for you)
 - Platform labels no longer get cut off on narrower phones
 - Platform labels now correctly disappear once that platform's artifact expires or is removed
-
-## What this app does
-
-SharpEmu Tracker reads public data from the GitHub Actions API for the SharpEmu project (and
-any fork/branch you choose to follow) and displays build status, commit history, and available
-platform artifacts in a simple mobile UI. That's it — it's a status viewer.
-
-It does **not**:
-- include, bundle, or distribute the SharpEmu emulator itself, or any of its build artifacts
-- include, bundle, or distribute any PlayStation firmware, BIOS, system software, or game files
-- run, execute, or emulate anything on your device
-- modify, patch, or interact with SharpEmu's own source code or releases in any way
