@@ -6,6 +6,13 @@ GitHub Actions runs.
 
 Grab the latest APK from [Releases](https://github.com/llnternet/SharpEmuTracker/releases).
 
+## 🖥️ Using this on Windows
+
+This app is Android-only (view-only, no downloading/installing builds). If you're on Windows and
+want to actually download and install SharpEmu builds, see
+**[SharpEmu Updater](https://github.com/llnternet/SharpEmuUpdater)** -- the full desktop companion
+app.
+
 ## What this app does
 
 SharpEmu Tracker reads public data from the GitHub Actions API for the SharpEmu project (and
