@@ -1,0 +1,24 @@
+SharpEmu Tracker (Mobile) - Setup Instructions
+================================================
+Created by llnternet
+
+1. Go to github.com > profile picture (top right) > Settings > Developer
+   settings > Personal access tokens > Tokens (classic).
+2. Click "Generate new token" > "Generate new token (classic)".
+3. Check the "repo" scope box, scroll down, click "Generate token".
+4. Copy the token GitHub shows you (starts with ghp_) -- you only get to
+   see it once.
+
+5. Open SharpEmu Tracker on your phone, go to the Settings tab, paste
+   the token into the GITHUB TOKEN box, and tap "Save Token".
+
+That's it. The token is encrypted at rest via the Android Keystore --
+nothing is ever stored as plain text, and there's no file to create or
+edit like the desktop app. To change tokens later, just paste a new one
+in Settings and tap "Save Token" again.
+
+Prefer a fine-grained token instead of classic? Generate one under
+"Personal access tokens > Fine-grained tokens" with Actions: Read-only
+and Contents: Read-only permissions, repository access covering
+sharpemu/sharpemu plus any fork you might switch to, then do step 5
+above the same way.

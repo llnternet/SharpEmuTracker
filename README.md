@@ -6,6 +6,21 @@ GitHub Actions runs.
 
 Grab the latest APK from [Releases](https://github.com/llnternet/SharpEmuTracker/releases).
 
+## 📲 Setup
+
+1. Download the APK from [Releases](https://github.com/llnternet/SharpEmuTracker/releases) and
+   open it on your phone. Android will warn about installing from an unknown source the first
+   time -- this is normal for any app not distributed through the Play Store; tap through to
+   allow it.
+2. See [`HOW TO SET UP YOUR TOKEN.txt`](HOW%20TO%20SET%20UP%20YOUR%20TOKEN.txt) to generate a
+   GitHub token and paste it into the Settings tab -- a token is required for the app to fetch
+   build data at all (checking the app's own updates in the background doesn't need one, but
+   viewing builds does).
+3. Switch to whichever fork/branch you want to follow via "Switch Fork".
+4. (Optional) Turn on background checks in Settings if you want build/update notifications while
+   the app is closed -- this requests the notification and battery-optimization permissions
+   needed for reliable background delivery.
+
 ## 🖥️ Using this on Windows
 
 This app is Android-only (view-only, no downloading/installing builds). If you're on Windows and
